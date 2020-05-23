@@ -1,0 +1,15 @@
+{% extends "blogs/base.html" %}
+
+{% block page_header %}
+  <div class="jumbotron">
+    <h1 class="display-3">You can put up blogposts here.</h1>
+
+    <p class="lead">Make your own blogposts, and keep posting it here. Whenever you post any blogs anyone who is interested can access this site to read your blogposts.</p>
+
+    <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">Register &raquo;</a>
+
+  </div>
+
+{% endblock page_header %}
+
+
